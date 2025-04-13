@@ -31,8 +31,6 @@ A FastAPI-based chatbot assistant that helps with everyday tasks like cooking, c
 
 
 ## 📦 Requirements
-
-```bash
 fastapi
 uvicorn
 sqlalchemy
@@ -47,27 +45,27 @@ bs4
 **Install everything with:**
 pip install -r requirements.txt
 
-🔐 Environment Setup
+🔐 **Environment Setup**
 Create a .env file based on the .env.example:
 OPENAI_API_KEY=sk-your-openai-key
 MYSQL_URL=mysql+pymysql://root:yourpassword@localhost:3306/ai_assistant
 
-🐬 MySQL Setup
+🐬 **MySQL Setup**
 You’ll need a running MySQL instance. You can use local MySQL:
 CREATE DATABASE ai_assistant;
 
 
-🧪 Run the App
+🧪 **Run the App**
 uvicorn app:app --reload
 
-Visit:
+**Visit**:
 http://localhost:8000
 
 Swagger UI (API docs):
 http://localhost:8000/docs
 
 
-🧠 Add Knowledge Entries
+🧠 **Add Knowledge Entries**
 Use the /add_knowledge route in Swagger to add entries like:
 {
   "topic": "cooking",
@@ -78,7 +76,7 @@ Use the /add_knowledge route in Swagger to add entries like:
 }
 
 
-💡 Contributing (to be talked about later)
+💡 **Contributing**
 Fork this repo
 Clone your fork
 Create a new branch
