@@ -43,7 +43,6 @@ A FastAPI-based chatbot assistant that helps with everyday tasks like cooking, c
 - bs4
 
 **Install everything with:**
-python --version
 pip install -r requirements.txt
 
 ## 🔐 Environment Setup
